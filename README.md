@@ -1,4 +1,4 @@
-# JakartaEE 9 Quickstarter archetype
+# JakartaEE 9 Quick starter archetype
 
 A quickstart maven archetype for creating greenfield JakartaEE 8 projects
 working with Payara 5 and MicroProfile 4
@@ -11,7 +11,7 @@ I've also written a blog about it on [IvoNet.nl](http://ivo2u.nl/oj)
 
 * [JavaEE / JakartaEE - Initializr](http://ivo2u.nl/oq)
 
-## Create Java EE 8 Project from mvn central repo
+## Create JakartaEE Project from mvn central repo
 
 ```bash
 mvn archetype:generate \
