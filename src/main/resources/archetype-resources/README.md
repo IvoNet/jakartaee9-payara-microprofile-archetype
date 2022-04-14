@@ -4,7 +4,7 @@ Your description here
 
 # Project information
 
-The project starts out with a fully configured minimal JakartaEE 8 setup and HelloWorld endpoint
+The project starts out with a fully configured minimal JakartaEE 9 setup and HelloWorld endpoint
 
 # Project Commands 
 
@@ -27,3 +27,4 @@ The project starts out with a fully configured minimal JakartaEE 8 setup and Hel
 # Example endpoint
 
 [http://localhost:8080/${artifactId}/rest/example](http://localhost:8080/${artifactId}/rest/example)
+[health check url](http://localhost:8080/health)
