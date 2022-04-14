@@ -1,5 +1,5 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-FROM ivonet/payara:5.193.1
+FROM ivonet/payara:5.2022.1-jdk17
 COPY ./artifact/${artifactId}.war $DEPLOY_DIR

@@ -6,16 +6,16 @@
         <version>9</version>
     </parent>
     <groupId>nl.ivonet</groupId>
-    <artifactId>jakartaee8-payara-microprofile-archetype</artifactId>
-    <version>1.2-SNAPSHOT</version>
-    <name>jakartaee8-payara-microprofile-archetype</name>
-    <description>Jakarta EE 8 / Payara 5 / Microprofile 3 - project minimalistic quickstart template.</description>
+    <artifactId>jakartaee9-payara-microprofile-archetype</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>jakartaee9-payara-microprofile-archetype</name>
+    <description>Jakarta EE 9 / Payara 5.2022.1 / Microprofile 4.1 - project minimalistic quickstart template.</description>
     <url>https://www.ivonet.nl</url>
     <organization>
         <name>Ivo Woltring</name>
         <url>https://www.ivonet.nl</url>
     </organization>
-    <inceptionYear>2019</inceptionYear>
+    <inceptionYear>2022</inceptionYear>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -102,14 +102,14 @@
         </plugins>
     </build>
     <scm>
-        <connection>scm:git:git@github.com:IvoNet/jakartaee8-payara-microprofile-archetype.git</connection>
-        <developerConnection>scm:git:git@github.com:IvoNet/jakartaee8-payara-microprofile-archetype.git</developerConnection>
-        <url>https://github.com/IvoNet/jakartaee8-payara-microprofile-archetype</url>
+        <connection>scm:git:git@github.com:IvoNet/jakartaee9-payara-microprofile-archetype.git</connection>
+        <developerConnection>scm:git:git@github.com:IvoNet/jakartaee9-payara-microprofile-archetype.git</developerConnection>
+        <url>https://github.com/IvoNet/jakartaee9-payara-microprofile-archetype</url>
         <tag>HEAD</tag>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 </project>

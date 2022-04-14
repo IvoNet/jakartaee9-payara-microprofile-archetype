@@ -3,9 +3,9 @@
 #set( $symbol_escape = '\' )
 package ${package}.service;
 
-import org.eclipse.microprofile.health.Health;
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;
+import org.eclipse.microprofile.health.Readiness;
 
 import javax.enterprise.context.ApplicationScoped;
 
@@ -16,7 +16,7 @@ import javax.enterprise.context.ApplicationScoped;
  *
  * The (test) endpoint is published: <a href="http://localhost:8080/health">http://localhost:8080/health</a>
  */
-@Health
+@Readiness
 @ApplicationScoped
 public class HealthCheckService implements HealthCheck {
     @Override

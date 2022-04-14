@@ -1,9 +1,9 @@
-# JakartaEE 8 Quickstarter archetype
+# JakartaEE 9 Quickstarter archetype
 
 A quickstart maven archetype for creating greenfield JakartaEE 8 projects
-working with Payara 5 and MicroProfile 3
+working with Payara 5 and MicroProfile 4
 
-You can find the archetype on [maven central](http://ivo2u.nl/os) 
+You can find the archetype on [maven central](http://ivo2u.nl/Vw) 
 
 I've also written a blog about it on [IvoNet.nl](http://ivo2u.nl/oj)
 
@@ -16,7 +16,7 @@ I've also written a blog about it on [IvoNet.nl](http://ivo2u.nl/oj)
 ```bash
 mvn archetype:generate \
     -DarchetypeGroupId=nl.ivonet \
-    -DarchetypeArtifactId=jakartaee8-payara-microprofile-archetype \
+    -DarchetypeArtifactId=jakartaee9-payara-microprofile-archetype \
     -DarchetypeVersion=1.0 -U
 ```
 
@@ -25,7 +25,7 @@ mvn archetype:generate \
 ```bash
 mvn dependency:get \
    -DgroupId=nl.ivonet \
-   -DartifactId=jakartaee8-payara-microprofile-archetype \
+   -DartifactId=jakartaee9-payara-microprofile-archetype \
    -Dversion=1.0
    
 mvn archetype:crawl
@@ -44,7 +44,7 @@ this will filter the archetype list on my groupId
 ```bash
 mvn archetype:generate                                            \
    -DarchetypeGroupId=nl.ivonet                                   \
-   -DarchetypeArtifactId=jakartaee8-payara-microprofile-archetype \
+   -DarchetypeArtifactId=jakartaee9-payara-microprofile-archetype \
    -DarchetypeVersion=1.0                                         \
    -DgroupId=[GROUP ID]                                           \
    -DartifactId=[PROJECT_NAME]                                    \
@@ -58,7 +58,7 @@ e.g.
 ```bash
 mvn archetype:generate                                            \
    -DarchetypeGroupId=nl.ivonet                                   \
-   -DarchetypeArtifactId=jakartaee8-payara-microprofile-archetype \
+   -DarchetypeArtifactId=jakartaee9-payara-microprofile-archetype \
    -DarchetypeVersion=1.0-SNAPSHOT                                \
    -DgroupId=nl.ivonet                                            \
    -DartifactId=helloworld                                        \
@@ -71,7 +71,7 @@ mvn archetype:generate                                            \
 
 # Maven repo
 
-* [Maven repo](https://repo.maven.apache.org/maven2/nl/ivonet/jakartaee8-payara-microprofile-archetype/)
+* [Maven repo](https://repo.maven.apache.org/maven2/nl/ivonet/jakartaee9-payara-microprofile-archetype/)
 
 # Contact
 
