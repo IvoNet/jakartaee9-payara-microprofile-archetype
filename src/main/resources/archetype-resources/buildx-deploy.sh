@@ -5,7 +5,7 @@ version=${version}
 
 mvn clean package
 
-./buildx-bootstrap.sh
+./buildx-bootstrap
 
 docker buildx build --platform=linux/amd64,linux/arm64/v8 --push -t ivonet/"${image}":latest .
 docker buildx build --platform=linux/amd64,linux/arm64/v8 --push -t ivonet/"${image}":"\${version}" .
