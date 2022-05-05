@@ -59,7 +59,7 @@ e.g.
 mvn archetype:generate                                            \
    -DarchetypeGroupId=nl.ivonet                                   \
    -DarchetypeArtifactId=jakartaee9-payara-microprofile-archetype \
-   -DarchetypeVersion=1.0-SNAPSHOT                                \
+   -DarchetypeVersion=2.0-SNAPSHOT                                \
    -DgroupId=nl.ivonet                                            \
    -DartifactId=helloworld                                        \
    -Ddocker-hub-name=ivonet                                       \

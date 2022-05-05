@@ -14,6 +14,7 @@ if [ $? -eq 1 ] || [ "$RUNNING" == "false" ]; then
      -p 8080:8080 \
      -p 8181:8181 \
      -p 4848:4848 \
+     -e ADMIN_PASSWORD=admin123 \
      -v "$(pwd)/artifact:/opt/payara5/glassfish/domains/domain1/autodeploy" \
      ivonet/payara:latest
      # note make the version more specific if you need that
