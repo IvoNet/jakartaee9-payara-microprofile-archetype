@@ -21,10 +21,32 @@ The project starts out with a fully configured minimal JakartaEE 9 setup and Hel
 
 # Docker
 
-* The docker image is hosted as [ivonet/payara](http://ivo2u.nl/tM)
-* The docker image is maintained [here](http://ivo2u.nl/oO) 
+- The docker image is hosted:
+  - [ivonet/payara](http://ivo2u.nl/tM) / [GitHub](http://ivo2u.nl/oO)
+  - [ivonet/glassfish](http://ivo2u.nl/tP) / [GitHub](http://ivo2u.nl/Vu)
+
+## deploy your own docker image
+
+```shell
+docker build -t DOCKER_HANDLE/IMAGE_NAME .
+docker push DOCKER_HANDLE/IMAGE_NAME
+```
+
+Make sure to replace DOCKER_HANDLE/IMAGE_NAME with actual values.
 
 # Example endpoint
 
-[http://localhost:8080/${artifactId}/rest/example](http://localhost:8080/${artifactId}/rest/example)
-[health check url](http://localhost:8080/health)
+- [http://localhost:8080/${artifactId}/rest/example](http://localhost:8080/${artifactId}/rest/example)
+- [health check url](http://localhost:8080/health)
+
+# Drop in replacement
+
+The payara/server-full docker image en the ivonet/payara images are almost drop-in
+replacements of each other.
+
+One of the main reasons the ivonet/payara image is used is that I as the maker have control
+over the java version I want to use and I can create a multi-platform build. 
+
+At the time this archetype was published there was only an amd64 build of te official payara 
+docker image.
+

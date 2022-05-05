@@ -7,9 +7,9 @@
     </parent>
     <groupId>nl.ivonet</groupId>
     <artifactId>jakartaee9-payara-microprofile-archetype</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>2.0-SNAPSHOT</version>
     <name>jakartaee9-payara-microprofile-archetype</name>
-    <description>Jakarta EE 9 / Payara 5.2022.1 / Microprofile 4.1 - project minimalistic quickstart template.</description>
+    <description>Jakarta EE 9 / Payara 5.2022.2 / Microprofile 4.1 - project minimalistic quickstart template.</description>
     <url>https://www.ivonet.nl</url>
     <organization>
         <name>Ivo Woltring</name>
@@ -18,8 +18,8 @@
     <inceptionYear>2022</inceptionYear>
     <licenses>
         <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <name>Eclipse Public License - v 2.0</name>
+            <url>https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt</url>
             <distribution>repo</distribution>
         </license>
     </licenses>

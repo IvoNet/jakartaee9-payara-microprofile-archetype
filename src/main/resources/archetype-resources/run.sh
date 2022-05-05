@@ -14,7 +14,7 @@ if [ $? -eq 1 ] || [ "$RUNNING" == "false" ]; then
      -p 8080:8080 \
      -p 8181:8181 \
      -p 4848:4848 \
-     -v "$(pwd)/artifact:/opt/payara/payara5/glassfish/domains/domain1/autodeploy" \
+     -v "$(pwd)/artifact:/opt/payara5/glassfish/domains/domain1/autodeploy" \
      ivonet/payara:5.2022.1
 
     mvn clean package
@@ -22,8 +22,6 @@ if [ $? -eq 1 ] || [ "$RUNNING" == "false" ]; then
     echo "Payara 5 admin console credentials:"
     echo "Website      : http://localhost:8080"
     echo "Admin console: https://localhost:4848"
-    echo "Username     : admin"
-    echo "Password     : secret"
 else
     echo "Stopping... with title ${artifactId}"
     docker rm -f ${artifactId}
