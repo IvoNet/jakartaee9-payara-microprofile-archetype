@@ -17,7 +17,7 @@ I've also written a blog about it on [IvoNet.nl](http://ivo2u.nl/oj)
 mvn archetype:generate \
     -DarchetypeGroupId=nl.ivonet \
     -DarchetypeArtifactId=jakartaee9-payara-microprofile-archetype \
-    -DarchetypeVersion=1.0 -U
+    -DarchetypeVersion=2.0 -U
 ```
 
 ## Install in local repo
@@ -26,7 +26,7 @@ mvn archetype:generate \
 mvn dependency:get \
    -DgroupId=nl.ivonet \
    -DartifactId=jakartaee9-payara-microprofile-archetype \
-   -Dversion=1.0
+   -Dversion=2.0
    
 mvn archetype:crawl
 ```
@@ -45,7 +45,7 @@ this will filter the archetype list on my groupId
 mvn archetype:generate                                            \
    -DarchetypeGroupId=nl.ivonet                                   \
    -DarchetypeArtifactId=jakartaee9-payara-microprofile-archetype \
-   -DarchetypeVersion=1.0                                         \
+   -DarchetypeVersion=2.0                                         \
    -DgroupId=[GROUP ID]                                           \
    -DartifactId=[PROJECT_NAME]                                    \
    -Ddocker-hub-name=[YOUR_DOCKER_HUB_NAME]                       \
@@ -59,7 +59,7 @@ e.g.
 mvn archetype:generate                                            \
    -DarchetypeGroupId=nl.ivonet                                   \
    -DarchetypeArtifactId=jakartaee9-payara-microprofile-archetype \
-   -DarchetypeVersion=2.0-SNAPSHOT                                \
+   -DarchetypeVersion=2.0                                         \
    -DgroupId=nl.ivonet                                            \
    -DartifactId=helloworld                                        \
    -Ddocker-hub-name=ivonet                                       \
